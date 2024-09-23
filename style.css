@@ -1,0 +1,34 @@
+body {
+    background: #fefe62;
+
+}
+
+.container {
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    /* padding: 5px; */
+    border-radius: 5px;
+    border: 5px solid black;
+    background-color: aliceblue;
+}
+
+.counter h1 {
+    font-size: 2rem;
+}
+
+.counter p {
+    font-size: 9rem;
+}
